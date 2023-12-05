@@ -1,8 +1,3 @@
-# Email-Spam-Classifier
+# Email Classifier - Spam / Ham
 
-    Spam Classifier with *Naive Bayes*, built using Python modules.
-
-This project classifies the email as spam or not based on the scanning of the email body. The program compares the string tokens
-with that of already stored *spam-keywords* and if it finds the one then reports the mail as spam otherwise not. 
-
-If classified as spam will place in spam folder or give label of spam.  If not spam will show in inbox as normal inbox message.
+This project identifies whether an email is spam by analyzing its content. It checks the string tokens against a database of known spam keywords. If any match is found, the email is marked as spam; otherwise, it's considered a regular inbox message. Spam emails are either moved to a spam folder or labeled as such, while non-spam emails appear in the inbox as usual.
